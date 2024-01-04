@@ -17,6 +17,8 @@ body {
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid #fff;
+    transition: all ease 0.3s;
+    cursor: pointer;
 }
 .gellary img:hover {
     width: 100%;
