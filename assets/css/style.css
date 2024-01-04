@@ -11,3 +11,13 @@ body {
     display: flex;
     gap: 5px;
 }
+.gellary img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.gellary img:hover {
+    width: 100%;
+}
