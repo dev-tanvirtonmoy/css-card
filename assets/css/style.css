@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #444;
+}
+.gellary {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+}
