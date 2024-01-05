@@ -3,23 +3,26 @@
     margin: 0;
 }
 body {
-    background-color: #444;
+    padding: 6% 0% 0% 2%;
+    background-color: #0b1522;
+    color: #fff;
 }
 .gellary {
     width: 30%;
-    height: 200px;
+    height: 250px;
     display: flex;
     gap: 5px;
 }
-.gellary img {
-    width: 10%;
-    height: 100%;
+.gellary > img {
+    width: 15%;
+    height: 250px;
+    aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid #fff;
-    transition: all ease 0.3s;
-    cursor: pointer;
+    transition: all ease 0.5s;
 }
 .gellary img:hover {
     width: 100%;
+    scale: 1.1;
 }
